@@ -11,4 +11,6 @@ module.exports = {
   GoodsHot: ApiRootUrl + 'goods/hot',  //热门
   GoodsList: ApiRootUrl + 'goods/list',  //获得商品列表
   GoodsCategory: ApiRootUrl + 'goods/category',  //获得分类数据
+
+  BrandList: ApiRootUrl + 'brand/list',  //品牌列表
 }

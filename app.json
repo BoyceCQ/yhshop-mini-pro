@@ -4,6 +4,7 @@
     "pages/logs/logs",
     "pages/catalog/catalog",
     "pages/category/category",
+    "pages/brand/brand", 
     "pages/newGoods/newGoods"
   ],
   "window":{
