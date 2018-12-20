@@ -3,6 +3,7 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/catalog/catalog",
+    "pages/category/category",
     "pages/newGoods/newGoods"
   ],
   "window":{
