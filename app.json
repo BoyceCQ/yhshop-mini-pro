@@ -5,7 +5,8 @@
     "pages/catalog/catalog",
     "pages/category/category",
     "pages/brand/brand", 
-    "pages/newGoods/newGoods"
+    "pages/newGoods/newGoods",
+    "pages/hotGoods/hotGoods"
   ],
   "window":{
     "backgroundTextStyle":"dark",
