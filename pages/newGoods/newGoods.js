@@ -8,14 +8,49 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    bannerInfo: {
+      'img_url': '',
+      'name': ''
+    },
+    categoryFilter: false,
+    filterCategory: [],
+    goodsList: [],
+    categoryId: 0,
+    currentSortType: 'default',
+    currentSortOrder: 'desc',
+    page: 1,
+    size: 1000
   },
 
+  getData: function () {
+    let that = this;
+    util.request(api.GoodsHot).then(function (res) {
+      if (res.errno === 0) {
+        that.setData({
+          bannerInfo: res.data.bannerInfo,
+        });
+        that.getGoodsList();
+      }
+    });
+  },
+  getGoodsList() {
+    var that = this;
+
+    util.request(api.GoodsList, { isNew: 1, page: that.data.page, size: that.data.size, order: that.data.currentSortOrder, sort: that.data.currentSortType, categoryId: that.data.categoryId })
+      .then(function (res) {
+        if (res.errno === 0) {
+          that.setData({
+            goodsList: res.data.goodsList,
+            filterCategory: res.data.filterCategory
+          });
+        }
+      });
+  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
+    this.getData();
   },
 
   /**
