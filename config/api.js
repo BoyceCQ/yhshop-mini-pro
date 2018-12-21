@@ -13,6 +13,7 @@ module.exports = {
   GoodsCategory: ApiRootUrl + 'goods/category',  //获得分类数据
 
   BrandList: ApiRootUrl + 'brand/list',  //品牌列表
+  BrandDetail: ApiRootUrl + 'brand/detail',  //品牌详情
 
   TopicList: ApiRootUrl + 'topic/list',  //专题列表
 }

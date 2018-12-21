@@ -7,7 +7,8 @@
     "pages/brand/brand", 
     "pages/newGoods/newGoods",
     "pages/hotGoods/hotGoods",
-    "pages/topic/topic"
+    "pages/topic/topic",
+    "pages/brandDetail/brandDetail"
   ],
   "window":{
     "backgroundTextStyle":"dark",
