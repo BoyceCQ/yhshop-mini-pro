@@ -6,7 +6,8 @@
     "pages/category/category",
     "pages/brand/brand", 
     "pages/newGoods/newGoods",
-    "pages/hotGoods/hotGoods"
+    "pages/hotGoods/hotGoods",
+    "pages/topic/topic"
   ],
   "window":{
     "backgroundTextStyle":"dark",
@@ -28,7 +29,7 @@
         "text": "首页"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/topic/topic",
         "iconPath": "static/images/ic_menu_topic_nor.png",
         "selectedIconPath": "static/images/ic_menu_topic_pressed.png",
         "text": "专题"
