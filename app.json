@@ -9,7 +9,10 @@
     "pages/hotGoods/hotGoods",
     "pages/topic/topic",
     "pages/brandDetail/brandDetail",
-    "pages/goods/goods"
+    "pages/goods/goods",
+    "pages/topicDetail/topicDetail",
+
+    "pages/commentPost/commentPost"
   ],
   "window":{
     "backgroundTextStyle":"dark",

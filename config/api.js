@@ -18,4 +18,10 @@ module.exports = {
   BrandDetail: ApiRootUrl + 'brand/detail',  //品牌详情
 
   TopicList: ApiRootUrl + 'topic/list',  //专题列表
+  TopicDetail: ApiRootUrl + 'topic/detail',  //专题详情
+  TopicRelated: ApiRootUrl + 'topic/related',  //相关专题
+
+  CommentList: ApiRootUrl + 'comment/list',  //评论列表
+  CommentCount: ApiRootUrl + 'comment/count',  //评论总数
+  CommentPost: ApiRootUrl + 'comment/post',   //发表评论
 }
