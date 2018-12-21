@@ -8,7 +8,8 @@
     "pages/newGoods/newGoods",
     "pages/hotGoods/hotGoods",
     "pages/topic/topic",
-    "pages/brandDetail/brandDetail"
+    "pages/brandDetail/brandDetail",
+    "pages/goods/goods"
   ],
   "window":{
     "backgroundTextStyle":"dark",

@@ -11,6 +11,8 @@ module.exports = {
   GoodsHot: ApiRootUrl + 'goods/hot',  //热门
   GoodsList: ApiRootUrl + 'goods/list',  //获得商品列表
   GoodsCategory: ApiRootUrl + 'goods/category',  //获得分类数据
+  GoodsDetail: ApiRootUrl + 'goods/detail',  //获得商品的详情
+  GoodsRelated: ApiRootUrl + 'goods/related',  //商品详情页的关联商品（大家都在看）
 
   BrandList: ApiRootUrl + 'brand/list',  //品牌列表
   BrandDetail: ApiRootUrl + 'brand/detail',  //品牌详情
